@@ -21,6 +21,7 @@
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M16 3C9 9 7.5 20 16 29 24.5 20 23 9 16 3Z' fill='%23A85F3E'/><path d='M16 9v15' stroke='%23FAFAF7' stroke-width='1.7' stroke-linecap='round'/></svg>">
 
+  <link rel="preload" as="image" href="assets/img/lilian-perfil.jpg" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -82,10 +83,84 @@
       "streetAddress": "Av. John F. Kennedy, 64, Recreio Maristela",
       "addressLocality": "Atibaia",
       "addressRegion": "SP",
+      "postalCode": "12946-620",
       "addressCountry": "BR"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.148251,
+      "longitude": -46.5497003
+    },
     "areaServed": "Atibaia e região",
-    "knowsAbout": ["Acupuntura", "Shiatsu", "Reflexologia Podal", "Auriculoterapia", "Cuidado do Idoso"]
+    "knowsAbout": ["Acupuntura", "Shiatsu", "Reflexologia Podal", "Auriculoterapia", "Cuidado do Idoso"],
+    "paymentAccepted": ["Dinheiro", "PIX", "Cartão"],
+    "currenciesAccepted": "BRL",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "62",
+      "bestRating": "5"
+    },
+    "sameAs": [
+      "https://www.google.com/maps/place/Cuidados+Terap%C3%AAuticos+Lilian+Goldschmidt"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Como funciona a primeira sessão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Na primeira consulta a Lilian conversa com você sobre o que está te trazendo aqui, faz uma avaliação completa do histórico e do momento atual, e juntos escolhem a melhor abordagem para o seu corpo. Reserve cerca de uma hora."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Acupuntura dói?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A maioria das pessoas sente apenas uma pressão leve quando a agulha entra. As agulhas são finíssimas, descartáveis e estéreis. Para quem prefere, há a opção sem agulhas, com estímulo manual em pontos do corpo e da orelha."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantas sessões são necessárias?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do que está sendo tratado. Em algumas situações, uma única sessão já alivia bastante. Em outras, o ciclo costuma ser de 5 a 8 encontros, espaçados conforme o seu corpo responde. Tudo é conversado na avaliação inicial."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como reservo um horário?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A forma mais rápida é pelo WhatsApp (11) 97177-3438. Clique em qualquer botão de Agendar no site, escreva o que está sentindo e combinamos o melhor horário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Atende em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O atendimento acontece no consultório no Recreio Maristela, em Atibaia. Em situações específicas como pós-operatório ou impossibilidade de locomoção, é possível avaliar atendimento em casa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Atende por plano de saúde?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O atendimento é particular. É possível emitir recibo para reembolso conforme o seu plano. Valores conversados pelo WhatsApp."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -112,6 +187,7 @@
         <a href="#sobre" class="text-sm font-medium text-ink-soft transition hover:text-terra">Sobre</a>
         <a href="#terapias" class="text-sm font-medium text-ink-soft transition hover:text-terra">Terapias</a>
         <a href="#produtos" class="text-sm font-medium text-ink-soft transition hover:text-terra">Produtos</a>
+        <a href="#duvidas" class="text-sm font-medium text-ink-soft transition hover:text-terra">Dúvidas</a>
         <a href="#contato" class="text-sm font-medium text-ink-soft transition hover:text-terra">Contato</a>
         <a href="https://wa.me/5511971773438?text=Ol%C3%A1%20Lilian%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="inline-flex items-center gap-2 rounded-full bg-terra px-5 py-2.5 text-sm font-medium text-white transition hover:bg-terra-dark">
           Agendar
@@ -130,6 +206,7 @@
         <a href="#sobre" class="border-b border-sand/50 py-3 font-medium text-ink-soft">Sobre</a>
         <a href="#terapias" class="border-b border-sand/50 py-3 font-medium text-ink-soft">Terapias</a>
         <a href="#produtos" class="border-b border-sand/50 py-3 font-medium text-ink-soft">Produtos</a>
+        <a href="#duvidas" class="border-b border-sand/50 py-3 font-medium text-ink-soft">Dúvidas</a>
         <a href="#contato" class="border-b border-sand/50 py-3 font-medium text-ink-soft">Contato</a>
         <a href="https://wa.me/5511971773438?text=Ol%C3%A1%20Lilian%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-terra px-5 py-3 font-medium text-white">
           Agendar pelo WhatsApp
@@ -590,8 +667,74 @@
               <input id="curso-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required class="w-full rounded-lg border border-sand bg-white px-4 py-3 text-ink outline-none transition focus:border-terra focus:ring-2 focus:ring-terra/20">
             </div>
             <button type="submit" class="w-full rounded-full bg-terra px-6 py-3.5 font-medium text-white transition hover:bg-terra-dark">Quero ser avisada</button>
+            <p class="mt-3 text-xs text-ink-soft">Ao enviar, você concorda com nossa <a href="privacidade.html" class="text-terra underline">Política de Privacidade</a>.</p>
             <p data-status role="status" aria-live="polite" class="mt-3 text-sm"></p>
           </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section id="duvidas" class="py-20 sm:py-28">
+      <div class="mx-auto max-w-4xl px-6">
+        <div class="reveal text-center">
+          <p class="inline-flex items-center gap-2.5 text-xs font-semibold uppercase tracking-[0.2em] text-terra">
+            <span class="h-px w-8 bg-terra/50"></span>
+            Dúvidas frequentes
+            <span class="h-px w-8 bg-terra/50"></span>
+          </p>
+          <h2 class="mt-4 font-display text-4xl font-medium text-ink sm:text-5xl">Antes da primeira sessão</h2>
+          <p class="mx-auto mt-4 max-w-xl text-ink-soft">As perguntas que mais chegam por aqui.</p>
+        </div>
+
+        <div class="reveal mt-12 space-y-3">
+          <details class="group rounded-2xl border border-sand/70 bg-white p-6 transition hover:border-terra/40 open:border-terra/40 open:shadow-sm">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-display text-lg font-semibold text-ink">
+              Como funciona a primeira sessão?
+              <svg class="h-5 w-5 shrink-0 text-terra transition group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </summary>
+            <p class="mt-4 leading-relaxed text-ink-soft">Na primeira consulta, a Lilian conversa com você sobre o que está te trazendo aqui, faz uma avaliação completa do histórico e do momento atual, e juntos escolhem a melhor abordagem para o seu corpo. Reserve cerca de uma hora.</p>
+          </details>
+
+          <details class="group rounded-2xl border border-sand/70 bg-white p-6 transition hover:border-terra/40 open:border-terra/40 open:shadow-sm">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-display text-lg font-semibold text-ink">
+              Acupuntura dói?
+              <svg class="h-5 w-5 shrink-0 text-terra transition group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </summary>
+            <p class="mt-4 leading-relaxed text-ink-soft">A maioria das pessoas sente apenas uma pressão leve quando a agulha entra. As agulhas são finíssimas, descartáveis e estéreis. Para quem prefere, há a opção sem agulhas, com estímulo manual em pontos do corpo e da orelha.</p>
+          </details>
+
+          <details class="group rounded-2xl border border-sand/70 bg-white p-6 transition hover:border-terra/40 open:border-terra/40 open:shadow-sm">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-display text-lg font-semibold text-ink">
+              Quantas sessões são necessárias?
+              <svg class="h-5 w-5 shrink-0 text-terra transition group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </summary>
+            <p class="mt-4 leading-relaxed text-ink-soft">Depende do que está sendo tratado. Em algumas situações, uma única sessão já alivia bastante. Em outras, o ciclo costuma ser de 5 a 8 encontros, espaçados conforme o seu corpo responde. Tudo é conversado na avaliação inicial.</p>
+          </details>
+
+          <details class="group rounded-2xl border border-sand/70 bg-white p-6 transition hover:border-terra/40 open:border-terra/40 open:shadow-sm">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-display text-lg font-semibold text-ink">
+              Como reservo um horário?
+              <svg class="h-5 w-5 shrink-0 text-terra transition group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </summary>
+            <p class="mt-4 leading-relaxed text-ink-soft">A forma mais rápida é pelo WhatsApp <a href="https://wa.me/5511971773438" class="text-terra underline">(11) 97177-3438</a>. Clique em qualquer botão de Agendar no site, escreva o que está sentindo e a gente combina o melhor horário pra você.</p>
+          </details>
+
+          <details class="group rounded-2xl border border-sand/70 bg-white p-6 transition hover:border-terra/40 open:border-terra/40 open:shadow-sm">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-display text-lg font-semibold text-ink">
+              Atende em casa?
+              <svg class="h-5 w-5 shrink-0 text-terra transition group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </summary>
+            <p class="mt-4 leading-relaxed text-ink-soft">O atendimento acontece no consultório, no Recreio Maristela, em Atibaia. Em situações específicas, como pós-operatório ou impossibilidade de locomoção, é possível avaliar um atendimento em casa.</p>
+          </details>
+
+          <details class="group rounded-2xl border border-sand/70 bg-white p-6 transition hover:border-terra/40 open:border-terra/40 open:shadow-sm">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-display text-lg font-semibold text-ink">
+              Atende por plano de saúde?
+              <svg class="h-5 w-5 shrink-0 text-terra transition group-open:rotate-45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+            </summary>
+            <p class="mt-4 leading-relaxed text-ink-soft">O atendimento é particular. É possível emitir recibo para reembolso conforme o seu plano. Valores conversados diretamente pelo WhatsApp.</p>
+          </details>
         </div>
       </div>
     </section>
@@ -678,6 +821,7 @@
                 <textarea id="contato-mensagem" name="mensagem" rows="4" required class="w-full rounded-lg border border-sand bg-white px-4 py-3 text-ink outline-none transition focus:border-terra focus:ring-2 focus:ring-terra/20"></textarea>
               </div>
               <button type="submit" class="w-full rounded-full bg-terra px-6 py-3.5 font-medium text-white transition hover:bg-terra-dark">Enviar</button>
+              <p class="mt-3 text-xs text-ink-soft">Ao enviar, você concorda com nossa <a href="privacidade.html" class="text-terra underline">Política de Privacidade</a>.</p>
               <p data-status role="status" aria-live="polite" class="mt-3 text-sm"></p>
             </form>
           </div>
@@ -730,13 +874,14 @@
             <li><a href="#terapias" class="transition hover:text-terra-soft">Terapias</a></li>
             <li><a href="#produtos" class="transition hover:text-terra-soft">Produtos</a></li>
             <li><a href="#cursos" class="transition hover:text-terra-soft">Cursos</a></li>
+            <li><a href="#duvidas" class="transition hover:text-terra-soft">Dúvidas</a></li>
             <li><a href="#contato" class="transition hover:text-terra-soft">Contato</a></li>
           </ul>
         </div>
       </div>
 
       <div class="mt-12 flex flex-col gap-2 border-t border-white/10 pt-6 text-sm text-base/50 sm:flex-row sm:justify-between">
-        <p>&copy; <span id="ano">2026</span> Cuidados Terapêuticos · Lilian Goldschmidt</p>
+        <p>&copy; <span id="ano">2026</span> Cuidados Terapêuticos · Lilian Goldschmidt · <a href="privacidade.html" class="transition hover:text-terra-soft">Privacidade</a></p>
         <p>Fotos: <a href="https://gabrielsucena.com/" target="_blank" rel="noopener" class="transition hover:text-terra-soft">Gabriel Sucena</a></p>
       </div>
     </div>
